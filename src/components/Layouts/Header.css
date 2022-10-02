@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+.nav-bar{
+
+    /* padding: 1rem 2rem; */
+    /* border: 1px solid black; */
+    width: 1305px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* width: 1437px; */
+    height: 58px;
+    width: 100%;
+
+}
+
+.nav-brand{
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    /* border: 1px solid red; */
+    width: 187px;
+    height: 90px;
+    /* text-align: center; */
+    align-items: center;
+    padding: 0px 0px 11px 33px;
+    box-sizing: border-box;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid green; */
+    /* width: 1087px; */
+    height: 58px;
+    width: 84%;
+    /* height: 90px; */
+    padding: 0 15px 0 15px;
+    
+    
+}
+
+.nav-list a{
+    text-decoration: none !important;
+    color: #000;
+}
+
+.nav-list-section-1{
+    /* border: 1px solid purple; */
+
+}
+.nav-list-section-1 a{
+        padding: 0px 4px 0px 12px;
+}
+.nav-list-section-2{
+    display: flex;
+    /* border: 1px solid orange; */
+    width: 242px;
+    justify-content: space-evenly;
+
+}
+.nav-list-section-2 button{
+   color: #23A6F0;
+    background-color: white;
+    border: none; 
+}
+
+.login-btn{
+    color: #23A6F0;
+    background-color: white;
+    border: none;
+}

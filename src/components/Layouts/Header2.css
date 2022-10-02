@@ -1,0 +1,149 @@
+/*
+.nav-bar{
+
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    position: absolute;
+width: 1437px;
+height: 58px;
+left: calc(50% - 1437px/2 - 1.5px);
+top: 0px;
+}*/
+
+.nav-container{
+    position: absolute;
+width: 1437px;
+height: 58px;
+left: calc(50% - 1437px/2 - 1.5px);
+top: 0px;
+}
+
+.nav-brand{
+    font-family: 'Montserrat', sans-serif;;
+    position: absolute;
+width: 187px;
+height: 58px;
+left: calc(50% - 187px/2 - 587px);
+top: 0px;
+}
+
+.nav-brand h3{
+    position: absolute;
+width: 116px;
+height: 32px;
+left: 0px;
+top: 13px;
+
+/* h3 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.1px;
+
+/* text-color */
+
+color: #252B42;
+
+}
+
+.nav-list{
+    position: absolute;
+width: 1155px;
+height: 58px;
+left: calc(50% - 1155px/2 + 124px);
+top: 0px;
+
+    
+    
+}
+
+.nav-list a{
+    text-decoration: none !important;
+    color: #000;
+}
+
+.nav-list-section-1{
+    border: 1px solid purple;
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+position: absolute;
+width: 361px;
+height: 25px;
+left: 0px;
+top: calc(50% - 25px/2);
+
+}
+.nav-list-section-2{
+    border: 1px solid orange;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 324px;
+height: 54px;
+left: calc(50% - 324px/2 + 416.5px);
+top: calc(50% - 54px/2);
+
+}
+
+.nav-list-section-1 li{
+    width: 43px;
+height: 24px;
+}
+.home-optn a{
+    position: absolute;
+width: 43px;
+height: 24px;
+left: 0px;
+top: 0px;
+}
+.shop-optn a{
+    position: absolute;
+width: 45px;
+height: 24px;
+left: 0px;
+top: 0px;
+}
+.about-optn a{
+    position: absolute;
+width: 45px;
+height: 24px;
+left: 0px;
+top: 0px;
+}
+.blog-optn a{
+    position: absolute;
+width: 33px;
+height: 24px;
+left: 0px;
+top: 0px;
+}
+.contact-optn a{
+    position: absolute;
+width: 58px;
+height: 24px;
+}
+.pages-optn a{
+    position: absolute;
+width: 44px;
+height: 24px;
+}
+
+.nav-list-section-1 a{
+    padding: 0 15px 0 15px;
+    /* border: 1px solid purple; */
+}
+
+.nav-list-section-2 a{
+}
